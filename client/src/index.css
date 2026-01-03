@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  
+}
+::-webkit-scrollbar {
+    display: nones;
+}
+@theme  {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #1D4ED8;
+  --secondary-color: #6B7280;
+}
+table , th, td {
+  padding: 10px;
+  border: 1px solid gray;
+  border-collapse: collapse; 
+  text-align: left;
+  text-align: center;
+
+}
+th{
+  padding-inline: 60px;
+}
+td{
+  padding: 10px;
+}
